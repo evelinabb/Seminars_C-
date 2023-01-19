@@ -1,0 +1,15 @@
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/bin/Debug/net6.0/problem_3
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/bin/Debug/net6.0/problem_3.deps.json
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/bin/Debug/net6.0/problem_3.runtimeconfig.json
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/bin/Debug/net6.0/problem_3.dll
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/bin/Debug/net6.0/problem_3.pdb
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.csproj.AssemblyReference.cache
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.GeneratedMSBuildEditorConfig.editorconfig
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.AssemblyInfoInputs.cache
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.AssemblyInfo.cs
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.csproj.CoreCompileInputs.cache
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.dll
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/refint/problem_3.dll
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.pdb
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/problem_3.genruntimeconfig.cache
+/Users/asda/Desktop/REP_GIT/SEMINARY/seminar_1/problem_3/obj/Debug/net6.0/ref/problem_3.dll
