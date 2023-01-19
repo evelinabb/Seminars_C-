@@ -10,7 +10,3 @@ value = Convert.ToInt32(strValue);
 int result = value * value;
 
 Console.WriteLine($"Квадрат числа {value} равен {result}");
-
-
-
-
