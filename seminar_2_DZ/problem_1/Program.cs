@@ -6,7 +6,7 @@
 
 int InputInt(string message)
 {
-    Console.Write("Введите число > ");
+    Console.Write("Введите трехзначное число > ");
     return Convert.ToInt32(Console.ReadLine());
 }
 
