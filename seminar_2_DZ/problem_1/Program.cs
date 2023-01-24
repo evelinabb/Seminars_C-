@@ -6,7 +6,7 @@
 
 int InputInt(string message)
 {
-    Console.Write("Введите трехзначное число > ");
+    Console.Write(message);
     return Convert.ToInt32(Console.ReadLine());
 }
 
@@ -21,7 +21,7 @@ bool ValidateNumberRank3(int number)
     return false;
 }
 
-int number = InputInt("Введите число");
+int number = InputInt("Введите трехзначное число > ");
 
 if (ValidateNumberRank3(number))
 {
