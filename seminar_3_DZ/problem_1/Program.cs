@@ -11,9 +11,21 @@ int PromptInt(string message)
     return int.Parse(Console.ReadLine());
 }
 
-bool FindFirstAndLastDigit (int number)
+bool CheckFiveDigitNumber(int number)
 {
-    int firstDigit = (number/10000) % 10;
+    if (number > 9999 && number < 100000)
+    {
+        return true;
+    }
+    else
+    {
+        return false;
+    }
+}
+
+bool FindFirstAndLastDigit(int number)
+{
+    int firstDigit = (number / 10000) % 10;
     int lastDigit = number % 10;
     if (firstDigit == lastDigit)
     {
@@ -22,10 +34,10 @@ bool FindFirstAndLastDigit (int number)
     return false;
 }
 
-bool FindSecondAndPenultimateDigit (int number)
+bool FindSecondAndPenultimateDigit(int number)
 {
-    int secondDigit = (number/1000) % 10;
-    int penultimateDigit = (number/10) % 10;
+    int secondDigit = (number / 1000) % 10;
+    int penultimateDigit = (number / 10) % 10;
     if (secondDigit == penultimateDigit)
     {
         return true;
@@ -34,14 +46,21 @@ bool FindSecondAndPenultimateDigit (int number)
 }
 
 int N = PromptInt("Введите число");
-if (FindFirstAndLastDigit(N))
+if (CheckFiveDigitNumber(N))
 {
-    if (FindSecondAndPenultimateDigit(N))
+    if (FindFirstAndLastDigit(N))
     {
-        Console.WriteLine("Число является полиндромом");
+        if (FindSecondAndPenultimateDigit(N))
+        {
+            Console.WriteLine("Число является полиндромом");
+        }
+    }
+    else
+    {
+        Console.WriteLine("Число не является полиндромом");
     }
 }
 else 
 {
-    Console.WriteLine("Число не является полиндромом");
+    Console.WriteLine("Число не пятизначное");
 }
