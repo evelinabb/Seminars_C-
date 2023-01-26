@@ -10,8 +10,15 @@ int PromptInt(string message)
 }
 
 int N = PromptInt("Введите число");
-for (int i = 1; i <= N; i++)
+if (N > 0)
 {
-    int result = i * i * i;
-    Console.WriteLine(result);
+    for (int i = 1; i <= N; i++)
+    {
+        int result = i * i * i;
+        Console.WriteLine(result);
+    }
+}
+else
+{
+    Console.WriteLine("Введите положительное число");
 }
