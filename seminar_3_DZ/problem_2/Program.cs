@@ -24,4 +24,3 @@ int dot2Y = PromptInt("Введите точку Y2");
 int dot2Z = PromptInt("Введите точку Z2");
 double letgthBetwPoints = FindLength(dot1X, dot1Y, dot1Z, dot2X, dot2Y, dot2Z);
 Console.WriteLine($"Расстояние между точками: {letgthBetwPoints:F2}");
-
