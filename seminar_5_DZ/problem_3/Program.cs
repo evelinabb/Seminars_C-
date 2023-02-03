@@ -1,9 +1,11 @@
 ﻿// Задача 3: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 
-int[] FillArray()
+//что-то не получилось создать массив из вещественных чисел((
+
+double[] FillArray()
 {
-    int[] array = new int[5];
+    double[] array = new double[5];
     Random rnd = new Random();
     for (int i = 0; i < array.Length; i++)
     {
@@ -12,7 +14,7 @@ int[] FillArray()
     return array;
 }
 
-void PrintArray(int[] array, string message)
+void PrintArray(double[] array, string message)
 {
     Console.Write(message);
     for (int i = 0; i < array.Length; i++)
@@ -22,9 +24,9 @@ void PrintArray(int[] array, string message)
     Console.WriteLine();
 }
 
-int MaxNumber(int[] array)
+double MaxNumber(double[] array)
 {
-    int maxNum = array[0];
+    double maxNum = array[0];
     for (int i = 1; i < array.Length; i++)
     {
         if (array[i] > maxNum)
@@ -35,9 +37,9 @@ int MaxNumber(int[] array)
     return maxNum;
 }
 
-int MinNumber(int[] array)
+double MinNumber(double[] array)
 {
-    int minNum = array[0];
+    double minNum = array[0];
     for (int i = 1; i < array.Length; i++)
     {
 
@@ -50,7 +52,7 @@ int MinNumber(int[] array)
 }
 
 
-int[] numsArray = FillArray();
+double[] numsArray = FillArray();
 PrintArray(numsArray, "Array: ");
-int diff = MaxNumber(numsArray) - MinNumber(numsArray);
+double diff = MaxNumber(numsArray) - MinNumber(numsArray);
 Console.WriteLine("Difference between max and min: " + diff);
