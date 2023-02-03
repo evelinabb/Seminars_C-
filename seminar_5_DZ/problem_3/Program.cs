@@ -1,15 +1,15 @@
 ﻿// Задача 3: Задайте массив вещественных чисел. Найдите разницу между максимальным и минимальным элементов массива.
 // [3 7 22 2 78] -> 76
 
-//что-то не получилось создать массив из вещественных чисел((
+//чуток не разобралась с созданием вещественного массива
 
 double[] FillArray()
 {
-    double[] array = new double[5];
+    double[] array = new double[4];
     Random rnd = new Random();
     for (int i = 0; i < array.Length; i++)
     {
-        array[i] = rnd.Next(0, 11);
+        array[i] = rnd.NextDouble();
     }
     return array;
 }
