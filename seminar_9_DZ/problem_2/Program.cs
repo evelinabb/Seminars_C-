@@ -23,4 +23,3 @@ int numberM = Prompt("Vvedite pervoe cislo");
 int numberN = Prompt("Vvedite poslednee cislo");
 int result = SumNumbers(numberM, numberN);
 Console.WriteLine($"Summa cisel ot {numberM} do {numberN} ravna {result}");
-
